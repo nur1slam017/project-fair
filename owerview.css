@@ -1,0 +1,480 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1e1e1e;
+    color: white;
+  }
+  header {
+    background-color: #151313dc;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+.navbar a{
+    transition: 0.3s ease ;
+}
+.navbar a:hover{
+    transform: scale(1.45);
+    color: greenyellow;
+}
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .hero-section {
+    background-image: url('https://img1.akspic.ru/crops/6/5/2/2/42256/42256-playstation_4-gora-ekstremalnyj_vid_sporta-rassvet-grand_theft_auto_online-3840x2160.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    color: white;
+  }
+  
+  .hero-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  button {
+    padding: 15px 30px;
+    border: 2px solid white;
+    background: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: rgba(255, 255, 255, 0.937);
+    color: black;
+  }
+  
+  .welcome-section {
+    background-color: #2b2b2b;
+    padding: 100px 20px;
+  }
+  
+  .welcome-section .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .welcome-section .text {
+    max-width: 500px;
+  }
+  
+  .welcome-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .welcome-section p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  .characters-img {
+    max-width: 600px;
+  }
+.third-section {
+    background-color: #343434;
+    padding: 100px 20px;
+  }
+  
+  .third-section .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .third-section .text {
+    max-width: 500px;
+  }
+  
+  .third-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .third-section p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  .city-img {
+    max-width: 600px;
+  }
+  .fourth-section {
+    background-color: #2b2b2b;
+    padding: 100px 20px;
+  }
+  
+  .fourth-section .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .fourth-section .text {
+    max-width: 500px;
+  }
+  
+  .fourth-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .fourth-section p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  .characters-img {
+    max-width: 600px;
+  }
+.fifth-section {
+    background-color: #343434;
+    padding: 100px 20px;
+  }
+  
+  .fifth-section .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .fifth-section .text {
+    max-width: 500px;
+  }
+  
+  .fifth-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .fifth-section p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  .city-img {
+    max-width: 600px;
+  }
+  .fifth-section {
+    background-color: #343434;
+    padding: 100px 20px;
+  }
+  
+  .fifth-section .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .s-section .text {
+    max-width: 500px;
+  }
+  
+  .fifth-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .fifth-section p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  .city-img {
+    max-width: 600px;
+  }
+  .sixth-section {
+    background-color: #343434;
+    padding: 100px 20px;
+  }
+  
+  .sixth-section .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .sixth-section .text {
+    max-width: 500px;
+  }
+  
+  .sixth-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .sixth-section p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  .city-img {
+    max-width: 600px;
+  }
+  .seventh-section {
+    background-color: #343434;
+    padding: 100px 20px;
+  }
+  
+  .seventh-section .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .seventh-section .text {
+    max-width: 500px;
+  }
+  
+  .seventh-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .seventh-section p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  .city-img {
+    max-width: 600px;
+  }
+  .eighth-section {
+    background-color: #343434;
+    padding: 100px 20px;
+  }
+  
+  .eighth-section .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .eighth-section .text {
+    max-width: 500px;
+  }
+  
+  .eighth-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .eighth-section p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  .city-img {
+    max-width: 600px;
+  }
+  .ninth-section {
+    background-color: #343434;
+    padding: 100px 20px;
+  }
+  
+  .ninth-section .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .ninth-section .text {
+    max-width: 500px;
+  }
+  
+  .ninth-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .ninth-section p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  .city-img {
+    max-width: 600px;
+  }
+.buy-now-section {
+    background-color: #1c1c1c;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .buy-now-section h2 {
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 40px;
+  }
+  
+  .games-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .game-card {
+    background-color: #333;
+    padding: 20px;
+    margin: 10px;
+    flex-basis: calc(50% - 40px);
+    border-radius: 8px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .game-card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .game-card h3 {
+    font-size: 28px;
+    margin: 20px 0;
+  }
+  
+  .platforms img {
+    width: 40px;
+    margin: 5px;
+  }
+  
+  .select-platform-btn {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .select-platform-btn:hover {
+    background-color: #f6f6f6;
+    color: black;
+  }
+  
+  .note {
+    font-size: 14px;
+    color: #999;
+    margin-top: 10px;
+  }  
+  footer {
+    background-color: #000000;
+    padding: 40px 0;
+    color: #ffffff;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.footer-section {
+    width: 30%;
+}
+.footer-section h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #f39c12;
+}
+.footer-section p, .footer-section ul {
+    font-size: 16px;
+}
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+.footer-section ul li a {
+    color: #f39c12;
+    text-decoration: none;
+}
+.footer-section ul li a:hover {
+    color: #d87d0e;
+}
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+}
+  @media (max-width: 376px) {
+    .hero-section h1 {
+      font-size: 24px;
+    }
+  
+    .buttons {
+      flex-direction: column;
+    }
+  
+    button {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .welcome-section .content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .characters-img {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    .third-section , .fourth-section, .fifth-section, .sixth-section, .seventh-section, .eighth-section, .ninth-section, .content {
+        flex-direction: column;
+        text-align: center;
+      }
+    
+      .city-img {
+        width: 100%;
+        margin-top: 20px;
+      }
+      .games-container {
+        flex-direction: column;
+      }
+    
+      .game-card {
+        flex-basis: 100%;
+        margin: 20px 0;
+      }
+  }
+  

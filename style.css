@@ -1,0 +1,455 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    overflow-x: hidden;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+img{
+    object-fit: cover;
+}
+header {
+    background-color: #091d3a;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.download-btn {
+    background-color: #ff3333;
+    border: none;
+    color: white;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition:  0.3s ease;
+}
+
+.download-btn:hover {
+    background-color: #cc0000;
+}
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1; 
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.video-background video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+.content {
+    position: relative;
+    z-index: 1; 
+    color: white; 
+    text-align: center;
+    padding: 20px;
+}
+.promo {
+    background: url('./bgc\ img\ 2.PNG') no-repeat center center/cover;
+    height: 100vh;
+    position: relative;
+    bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: center;
+    padding: 2rem;
+}
+
+.promo-btn {
+    background-color: #ffffff;
+    color: black;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    transition:  0.3s ease;
+}
+.navbar a{
+    transition: 0.3s ease ;
+}
+.navbar a:hover{
+    transform: scale(1.45);
+    color: greenyellow;
+}
+.promo-btn:hover {
+    transform: scale(1.25);
+    background-color: rgb(0, 255, 0);
+}
+.play{
+    position: relative;
+    bottom: 320px;
+    font-size: 30px;
+}
+.featured {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f3f3f3;
+    position: relative;
+    height: 100%;
+    bottom: 200px;
+}
+
+.featured h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+.slider {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    height: 400px;
+}
+
+.slide {
+    min-width: 100%;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: slideAnimation 20s infinite;
+    opacity: 0;
+}
+
+.slide:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.slide:nth-child(2) {
+    animation-delay: 5s;
+}
+
+.slide:nth-child(3) {
+    animation-delay: 10s;
+}
+
+.slide:nth-child(4) {
+    animation-delay: 15s;
+}
+
+@keyframes slideAnimation {
+    0%, 25% {
+        opacity: 1;
+    }
+    30%, 100% {
+        opacity: 0;
+    }
+}
+
+.video-wrapper {
+    width: 60%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.video-wrapper video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slide-content {
+    width: 40%;
+    padding: 1rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+.slide-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.slide-content p {
+    font-size: 1rem;
+    line-height: 1.4;
+}
+.discord img {
+    width: 105%;
+    height: 100%;
+}
+
+.discord-btn {
+    position: relative;
+    bottom: 400px;
+    left: 900px;
+    background-color: #ffffff;
+    color: black;
+    border-radius: 32%;
+    width: 200px;
+    height: 50px;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.discord-btn:hover {
+    transform: scale(1.25);
+    background-color: #0efe22;
+    color: white;
+}
+
+.play1 {
+    position: relative;
+    bottom: 450px;
+    left: 900px;
+    color: white;
+    font-size: 24px;
+}
+
+.plays31 {
+    display: grid;
+    position: relative;
+    bottom: 450px;
+    left: 900px;
+    color: white;
+    font-size: 14px;
+}
+
+.code-btn {
+    position: relative;
+    bottom: 200px;
+    left: 450px;
+    background-color: #ffffff;
+    color: black;
+    border-radius: 32%;
+    width: 200px;
+    height: 50px;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.code-btn:hover {
+    transform: scale(1.25);
+    background-color: #0efe22;
+    color: white;
+}
+footer {
+    background-color: #1b1b1b;
+    padding: 40px 0;
+    color: #ffffff;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.footer-section {
+    width: 30%;
+}
+.footer-section h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #f39c12;
+}
+.footer-section p, .footer-section ul {
+    font-size: 16px;
+}
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+.footer-section ul li a {
+    color: #f39c12;
+    text-decoration: none;
+}
+.footer-section ul li a:hover {
+    color: #d87d0e;
+}
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+}
+.socials {
+    display: flex;
+    gap: 10px;
+}
+.socials li {
+    display: inline;
+}
+@media screen and (max-width: 376px) {
+    body {
+        font-size: 14px;
+    }
+
+    header {
+        padding: 0.5rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin-bottom: 10px;
+    }
+
+    .content h1 {
+        font-size: 2rem;
+    }
+
+    .download-btn, .promo-btn, .discord-btn, .code-btn {
+        padding: 0.8rem 1.5rem;
+        font-size: 1rem;
+    }
+
+    .promo {
+        background-size: cover;
+        height: auto;
+        padding: 1rem;
+        bottom: 0;
+    }
+
+    .play, .play1 {
+        font-size: 24px;
+    }
+
+    .plays31 {
+        font-size: 12px;
+    }
+
+    .featured {
+        padding: 1rem;
+    }
+
+    .slider {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .slide-content h3 {
+        font-size: 1.2rem;
+    }
+
+    .slide-content p {
+        font-size: 0.9rem;
+    }
+
+    .discord {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .discord img {
+        width: 100%;
+        height: auto; 
+    }
+
+    .play1 {
+        position: relative;
+        bottom: 0; 
+        left: 0;
+        font-size: 20px;
+        margin-top: 10px; 
+    }
+
+    .plays31 {
+        position: relative;
+        bottom: 0; 
+        left: 0;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    .discord-btn {
+        margin-top: 20px;
+        width: 180px;
+        height: 45px;
+        font-size: 1rem;
+        border-radius: 10px; 
+        position: relative;
+        bottom: 0;
+        left: 0;
+    }
+
+    .code {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .code img {
+        width: 100%;
+        height: auto;
+    }
+
+    .code-btn {
+        margin-top: 20px;
+        width: 180px;
+        height: 45px;
+        font-size: 1rem;
+        border-radius: 10px;
+        position: relative;
+        bottom: 0;
+        left: 0;
+    }
+}
